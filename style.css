@@ -1,0 +1,353 @@
+body{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 150%;
+    color:#888;
+    
+}
+
+.title{
+    color:#353b48;
+    font-family:sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    animation: fadeIn ease 1s;
+
+
+}
+#main{
+    margin-left: 300px; 
+    padding: 0px 30px;
+  
+    
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+    
+}
+#sideBar{
+    color:white;
+    background-color: #353b48;
+    height:100%;
+    margin-left: -10px;
+    position: fixed;
+    width: 300px;
+    z-index: 1;
+    top:0;
+    bottom:0;
+    overflow-x: hidden;
+    /*vertical-align: center;*/
+    padding-top: 10%;
+    font-weight: lighter;
+
+}
+
+.side:hover{
+    color:#f1f1f1;
+    background-color: #888;
+}
+
+.side {
+    color:#818181;
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    font-size: 12;
+    margin-top:10%;
+    display: block;
+    font-weight: lighter;
+}
+
+ 
+@keyframes side {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+
+    /* effect for education subtitle */
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    
+ 
+    
+
+    figure img {
+        vertical-align: top;
+        max-width: 600px;
+       
+        
+    }
+
+    figure figcaption {
+        max-width: 600px;
+        background-color: #818181;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+    }
+ 
+
+  
+
+    #wheelImage{
+        margin-left: 12%;
+        margin-top: -39%;
+        margin-bottom: 20%;
+        vertical-align: middle;
+        max-width: 70%;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;    
+    }
+
+    .social{
+        margin-top:20%;
+        width: 15%;
+        padding-left: 10%;
+        
+        
+    }
+    .socialAnchor{
+        color: #353b48;
+    }
+
+
+    .social:hover{
+        background-color: none;
+        color:none;
+        text-decoration: none;        
+    }
+
+    #SocialMedia{
+        display: block;
+    }
+
+    .h2{
+        font-size: 90%;
+    }
+
+    .educationshow{
+
+        animation: fadeIn ease 3s;
+        opacity:1;
+    }
+
+    .educationhide{
+        opacity: 0;
+    }
+
+
+    .dorm{
+        
+        width: 200px;
+        height: auto;
+        margin: 15px 30px 9px 0px;
+        float: left;
+      
+        
+    }
+
+    .works{
+        max-width: 500px;
+        height: auto;
+        margin: 15px 0px 9px 30px;
+        float: right;
+       
+    }
+
+    .worksright{
+        width: 400px;
+        height: auto;
+        margin: 15px 30px 9px 0px;
+        float: left;
+        align-items:right;
+      
+       
+    }
+
+
+    .linkdiv{
+        display: inline;
+       
+    }
+  
+    .hyperlink{
+        margin-top: -90px;
+        margin-left:20px;
+        width: 20px;
+        height: auto;
+    }
+ 
+
+
+
+ 
+@media screen and (max-width:600px){
+
+
+    #sideBar{
+        color:white;
+        background-color: #353b48;
+        height:30px;
+    
+        overflow: hidden;
+       
+        
+        
+        width: auto;
+        z-index: 1;       
+        font-weight: lighter;
+        
+        
+    
+    }
+
+ 
+    .side {
+        color:#818181;
+        text-decoration: none;
+        padding: 0px 8px 0px 0px;
+        font-size: 60%;
+        
+        margin-right: 10%;
+        display: inline;
+        font-weight: lighter;
+    }
+    
+    .works{
+      max-width: 300px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .worksright{
+        width: 300px;
+        height: auto;
+        margin: 15px 30px 9px 0px;
+        float: left;
+     
+        
+        
+       
+    }
+
+    
+    #ulsocial{
+        margin-left: 10%;
+        margin-top: -7%;
+    
+        margin-bottom: auto;
+    }
+    #wheelImage{
+        margin-left: 2%;
+        margin-top: -8%;
+       margin-right: 2%;
+     
+        max-width: 12%;
+        border-radius: 50%;
+        text-align: center;
+   
+           
+        float:left
+    
+    }
+
+    #SocialMedia{
+        display: none;
+       
+    }
+
+    .social{
+    
+  
+        margin-top: -90%;
+        display: none;
+        display: inline-block;
+      
+        
+        
+    }
+
+
+
+    #main{
+        margin-top:20%;
+        margin-left: 10px; 
+        margin-right: 10px;
+        
+        
+        -webkit-animation: fadeIn ease 1s;
+        -moz-animation: fadeIn ease 1s;
+        -o-animation: fadeIn ease 1s;
+        -ms-animation: fadeIn ease 1s;
+        
+    }
+
+    #cover{
+        max-width: 200px;
+        display: block;
+        margin: 0 auto;
+       
+       
+       
+       
+
+    }
+
+    figure figcaption{
+        max-width: 200px;
+        display: block;
+        margin: 0 auto;
+       
+        background-color: #818181;
+        color: white;
+       
+        font-weight: lighter;
+        text-align: center;
+
+    }
+}
+
+
+/*
+@media screen and (min-width:80px){
+    .dormfig{
+        padding-bottom: 20%;
+    }
+}
+*/
+
+
+            
+  
